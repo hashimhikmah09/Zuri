@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZURI HTML & CSS</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div id="branding">
+            <img src="img.jpg" alt="log" height="100px" width="100px">
+          </div>
+          <nav>
+            <ul>
+              <li><a href="about.html">Home</a></li>
+              <li><a href="contact.html">Contact Page</a></li>
+              <li class="current"><a href="registration.html">Registration Page</a></li>
+              <li><a href="login.html">Login Page</a></li>
+            </ul>
+          </nav>
+    
+        </div>
+      </header> 
+      <section id="form">
+        <div class="dark">
+            <h3> FORM </h3>
+            <form class="quote">
+                <div>
+                    <label for="fname"> First Name </label>
+                    <input type="text" id="fname" name="firstname"  placeholder="First Name">
+                </div>
+                <div>
+                  <label for="lname"> Last Name </label>
+                  <input type="text" id="lname" name="lastname"  placeholder="Last Name">
+              </div>
+              <div>
+                <label for="Pnumber"> Phone </label>
+                <input type="number" id="Pnumber" name="phonenumber"  placeholder="Phone Number">
+            </div>
+            <div>
+              <label for="gender"> Gender</label>
+              <select id="gender" name="gender">
+                <option value="select"> select</option>
+                <option value="select"> male</option>
+                <option value="select"> female</option>
+              </select>
+          </div>
+          <div>
+            <label for="country"> Country </label>
+            <input type="text"placeholder="Country">
+        </div>
+        <div>
+            <label for="state"> State/Province </label>
+            <input type="text"placeholder="State/Province">
+        </div>
+       <div>
+             <label> Email </label>
+            <input type="email"placeholder="Email Address">
+                </div>
+      <div>
+          <label for="psw"> Password </label>
+         <input type="password" id="psw" name="password"  placeholder="Password">
+                </div>
+                          <div>
+         <label for="psw">  Confirm Password </label>
+        <input type="password" id="psw" name="password"  placeholder=" Confirm Password">
+                                 </div>
+                    
+            <button class="button_1" type="submit">Sign up</button>
+            </form>
+            </div>
+        </section>
+</body>
+</html>
